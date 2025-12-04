@@ -314,7 +314,7 @@ footer p{
     .two-column-layout{
         flex-direction: column;
         gap: 30px;
-        margin-left: 200px;
+        margin-left: 60px;
     }
 
     .float-image{
@@ -346,7 +346,7 @@ footer p{
 
 @media (max-width: 480px){
     body{
-        padding: 5px;
+        padding: 15px;
     }
 
     header{
@@ -412,10 +412,99 @@ footer p{
         font-size: 0.9rem;
     }
 
-    input
+    .two-column-layout{
+        margin-left: 50px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select{
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    button{
+        width: 100%;
+        padding: 8px 12px;
+    }
+
+    footer{
+        margin-top: 40px;
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 400px){
+    body{
+        padding: 7.5px;
+    }
+
+    header{
+        padding: 5px;
+    }
+
+    header h1{
+        font-size: 1.3rem;
+        margin-bottom: 4px;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+        padding: 3px 4px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container{
+        padding: 5px;
+    }
+
+    main{
+        padding: 10px 5px;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    article{
+        padding: 15px;
+    }
+
+    .float-image{
+        max-width: 200px;
+    }
+
+    table{
+        font-size: 0.8rem;
+    }
+
+    th, td{
+        font-size: 0.85rem;
+        padding: 6px 3px;
+    }
+
+    label{
+        font-size: 0.9rem;
+    }
 
     .two-column-layout{
-        margin-left: 0px;
+        margin-left: 50px;
     }
 
     input[type="text"],
